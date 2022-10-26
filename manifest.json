@@ -1,0 +1,11 @@
+{
+ "manifest_version": 1,
+ "name": "ILoveTigers",
+ "version": "1.0.0",
+ "content_script": [
+    {
+        "matches": ["<all_urls"],
+        "js": ["Content.js"]
+    }
+ ]
+}
